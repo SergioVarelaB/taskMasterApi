@@ -12,7 +12,7 @@ app.use("/", routes)
 
 //connect to bd
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost:27017/aaaa");
+mongoose.connect("mongodb://localhost:27017/taskMaster");
 
 // 
 app.listen(port, ()=>{
